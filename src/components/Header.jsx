@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header>
       <h2>Devmountain Eatery</h2>
-      <nav>
+      <nav className="navBar">
         <Link to="">
           <button>Home</button>
         </Link>

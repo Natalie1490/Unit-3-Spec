@@ -96,32 +96,68 @@ header {
   background-color: orange;
   display: flex;
   align-items: center;
-  font-size: large;
   color: white;
 }
-h2 {
-  margin-left: 60px;
+
+.navbar {
+  display: flex;
+  align-items: flex-end;
 }
 
-nav {
+h1 {
+  font-size: 30px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h4 {
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+}
+
+.blue-btn {
+  font-size: 14px;
+}
+
+.groupSalmon {
+  display: center;
 }
 
 button {
-  border: none;
   color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: orange;
+  border-radius: 5px;
+  border: none;
+  font-size: 13px;
 }
 
 Footer {
-  width: 100%;
+  width: 100vw;
   height: 150px;
   display: flex;
   align-items: flex-end;
-  position: fixed;
+  flex-direction: column;
   bottom: 0;
   left: 0;
   text-align: center;
   font-size: large;
   color: rgb(45, 170, 216);
+}
+
+.pictures {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.recipe-card-container {
+  display: flex;
+  justify-content: space-around;
 }
