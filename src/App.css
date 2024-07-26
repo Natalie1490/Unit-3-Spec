@@ -126,7 +126,11 @@ h4 {
 }
 
 .groupSalmon {
-  display: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
 }
 
 button {
@@ -143,12 +147,13 @@ Footer {
   height: 150px;
   display: flex;
   align-items: flex-end;
-  flex-direction: column;
+  flex-direction: row;
   bottom: 0;
   left: 0;
   text-align: center;
   font-size: large;
   color: rgb(45, 170, 216);
+  background-color: orange;
 }
 
 .pictures {
