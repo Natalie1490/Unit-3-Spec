@@ -8,7 +8,7 @@ const HomeScreen = () => {
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
   const getRecipes = () => {
-    axios.get("https://recipes.devmountains.com/recipes").then((res) => {
+    axios.get("https://recipes.devmountain.com/recipes").then((res) => {
       setRecipes(res.data);
       console.log(res.data);
     });
@@ -38,7 +38,6 @@ const HomeScreen = () => {
           placeholder="Search for Recipe"
         />
       </span>
-      {RecipeCard}
       {recipeDisplay}
     </div>
   );
